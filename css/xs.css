@@ -1,7 +1,36 @@
 @media (max-width:767px) {
-    
-   h1{
+    body{padding-top: 90px}
+    h1{
         font-size: 40px;
+    }
+
+    button#iconMenu{
+        color: #f38f00;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: none;
+        border: none;
+    }
+    button:hover#iconMenu{
+        color: white;
+        border: none;
+        background: #f38f00;
+    }
+    
+    button:active#iconMenu{
+        color: white;
+        border: none;
+        background: #f38f00;
+    }
+    
+    #logo{
+        text-align: center;
+        padding-top: 15px;
+    }
+    #logo img{
+        max-height: 70px;
+        display: initial;
     }
 
 }

@@ -1,8 +1,10 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css');
+@import url('../inc/jasny-bootstrap/css/jasny-bootstrap.min.css');
 @import url('http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic');
 @import url('../inc/light-box-bootstrap/ekko-lightbox.css');
+@import url('../inc/awesome/css/font-awesome.min.css');
 @import url('geral.css');
 @import url('pagseguro.css');
 @import url('sm.css');

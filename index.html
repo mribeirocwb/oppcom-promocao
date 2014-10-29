@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Aproveite a promoção para criar seu site e e-mails marketinh, esteja acessível em celulares e tablet`s. Parcelamos em 3 vezes sem juros no boleto.">
+        <meta name="keywords" content="criação,sites,responsivo,e-mail,marketing,desenvolvimento,web,promocao">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
         <!-- RETIRAR EM PRODUÇÃO -->
@@ -17,10 +19,21 @@
 
     </head>
     <body>
+        <nav id="menuMovel" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <ul class="nav navmenu-nav">
+                <li><a class="navigate-pages" href="#home">Home</a></li>
+                <li><a class="navigate-pages" href="#promocao">Promoção</a></li>
+                <li><a class="navigate-pages" href="#portfolio">Portfólio</a></li>
+                <li><a class="navigate-pages" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="logo" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <button id="iconMenu" class="col-sm-2 col-xs-3 visible-sm visible-xs" data-toggle="offcanvas" data-target="#menuMovel" data-canvas="body">
+                        <i class="fa fa-bars fa-5x"></i>
+                    </button>
+                    <div id="logo" class="col-lg-3 col-md-3 col-sm-10 col-xs-9">
                         <a href="/">
                             <img src="img/logo-oppcom.png" alt="logo Opp Ponto Com" class="img-responsive"/>
                         </a>
@@ -54,7 +67,7 @@
                         <div class="text-center">
                             <h3 data-code="Novo site mais Hospedagem">novo site + hospedagem</h3>
                             <p class="large">desenvolvimento de web sites que se adapta em computadores, notebook’s tablet’s e celulares</p>
-                            <p class="descricao">Promoção para desenvolvimento de site em HTML 5 com até 5 páginas (ex.: home, empresa, produtos, serviços, contatos) e hospedagem grátis por 6 meses.</p>
+                            <p class="descricao">Promoção para <strong>desenvolvimento de site</strong> em HTML 5 com até 5 páginas (ex.: home, empresa, produtos, serviços, contatos) e hospedagem grátis por 6 meses.</p>
                             <p class="preco" data-preco="1849.00">R$ 1.849,00</p>
                             <div class="cont-btn-solicite">
                                 <a href="#contato" class="btnSolicite navigate-pages">Saiba mais</a>
@@ -66,7 +79,7 @@
                         <div class="text-center">
                             <h3 data-code="E-mail Marketing">E-mail <br>marketing</h3>
                             <p class="large">Comunique-se com seus clientes envie e-mails promocionais com um deseign profissional</p>
-                            <p class="descricao">Promoção para o desenvolvimento do design de 4 peças de e-mails marketing.</p>
+                            <p class="descricao">Promoção para o desenvolvimento do design de 4 peças de <strong>e-mails marketing</strong>.</p>
                             <p class="preco" data-preco="1560.00">R$ 1.560,00</p>
                             <div class="cont-btn-solicite">
                                 <a href="#contato" class="btnSolicite navigate-pages">Saiba mais</a>
@@ -78,7 +91,8 @@
                         <div class="text-center">
                             <h3 data-code="Novo Site mais E-mail Marketing">novo site + <br>E-mail Marketing</h3>
                             <p class="large ">Comece o ano com o pé direito e aproveite nosso pacote para desenvolvimento de site e e-mail</p>
-                            <p class="descricao">Promoção para desenvolvimento de site em HTML 5 com até 5 páginas (ex.: home, empresa, produtos, serviços, contatos) e hospedagem grátis por 6 meses e desenvolvimento de 4 peças de e-mails marketing.</p>
+                            <p class="descricao">Promoção para <strong>desenvolvimento de site</strong> em HTML 5 com até 5 páginas (ex.: home, empresa, produtos, serviços, contatos) e hospedagem grátis 
+                                por 6 meses e desenvolvimento de 4 peças de <strong>e-mails marketing</strong>.</p>
                             <p class="preco" data-preco="3000.00">R$ 3.000,00</p>
                             <div class="cont-btn-solicite">
                                 <a href="#contato" class="btnSolicite navigate-pages">Saiba mais</a>
@@ -109,7 +123,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="telefoneCompra">Telefone</label>
-                                <input type="text" class="form-control" id="telefoneCompra" name="telefoneCompra" placeholder="(XX) 9999-9999">
+                                <input type="text" class="form-control" id="telefoneCompra" name="telefoneCompra" data-mask="(99) 9999-9999?9" placeholder="(XX) 9999-9999">
                             </div>
                             <p><strong>Após escolher sua forma de pagamento um de nossos consultores entraram em contato através do dados acima para 
                                     formular contrato e iniciar o desenvoltimento do seu site.</strong></p>
@@ -239,7 +253,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="telefone">Telefone:</label>
-                                <input type="tel" class="form-control input-lg" id="telefone" name="telefone" placeholder="(XX) 9999-9999">
+                                <input type="tel" class="form-control input-lg" id="telefone" name="telefone" data-mask="(99) 9999-9999?9" placeholder="(XX) 9999-9999">
                             </div>
                             <div class="form-group">
                                 <label for="mensagem">Mensagem:</label>
@@ -252,11 +266,14 @@
                         <h3>Endereços</h3>
                         <address>Rua Barão de Monte Alegre, 273 <br>Curitiba - PR</address>
                         <p class="telefone">(41) 3573-6315</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.306884784692!2d-49.224260500000035!3d-25.461426199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5386206859b%3A0xe2036ca58b20fc6c!2sR.+Bar%C3%A3o+de+Monte+Alegre%2C+273+-+Jardim+das+Am%C3%A9ricas%2C+Cajuru%2C+Curitiba+-+PR%2C+81540-200!5e0!3m2!1spt-BR!2sbr!4v1414170029766" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.306884784692!2d-49.224260500000035!3d-25.461426199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5386206859b%3A0xe2036ca58b20fc6c!2sR.+Bar%C3%A3o+de+Monte+Alegre%2C+273+-+Jardim+das+Am%C3%A9ricas%2C+Cajuru%2C+Curitiba+-+PR%2C+81540-200!5e0!3m2!1spt-BR!2sbr!4v1414170029766" frameborder="0" style="border:0; width: 100%; height: 300px"></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        <footer>
+
+        </footer>
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -274,8 +291,8 @@
             ga('send', 'pageview');
         </script>
         <script type="text/javascript" src="/js/include_script.js"></script>
-        
-        
-        
+
+
+
     </body>
 </html>

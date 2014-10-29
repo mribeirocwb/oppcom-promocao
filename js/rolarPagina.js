@@ -5,6 +5,12 @@ $(document).ready(function(){
        var linkLimpo = $(this).attr('href').split('#').pop();
        var vaiPara = $('#'+linkLimpo).offset().top;  
        
+       var width = $( window ).width();
+       
+       if(width < 993){
+           $('#menuMovel').offcanvas('hide');
+       }
+       
        var title = $(link).attr('data-title');
        
        document.title = title + ' | OPP Ponto Com';
